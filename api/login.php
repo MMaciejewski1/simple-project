@@ -14,4 +14,4 @@ if(!$email || !$password ){
     $service = new UserService();
     echo ($service->loginUser($email,$password))?"ok":"error";
 }
-header( "refresh:5;url=../index.html" );
+header( "refresh:0;url=../index.html" );
